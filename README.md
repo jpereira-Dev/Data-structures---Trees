@@ -1,25 +1,25 @@
-🌳 Árvores Binárias em Java
-Implementação completa de estruturas de dados de árvores binárias em Java, desenvolvida para estudos e prática de estruturas de dados.
-📋 Sobre o Projeto
-Este repositório contém implementações de árvores binárias com diversos métodos de manipulação, incluindo versões iterativas e recursivas. O projeto foi desenvolvido como parte dos meus estudos em estruturas de dados e algoritmos.
-🚀 Funcionalidades
-Métodos de Inserção
+# 🌲 Estruturas de Dados - Árvores
 
-Inserção Iterativa: Adiciona elementos usando loops
-Inserção Recursiva: Adiciona elementos usando recursão
+Repositório completo com implementações de diversas estruturas de dados baseadas em árvores em Java, desenvolvido para estudos aprofundados de algoritmos e estruturas de dados.
 
-Métodos de Busca
+## 📋 Sobre o Projeto
 
-Busca de valores na árvore
-Encontrar valor máximo
-Encontrar valor mínimo
+Este repositório contém implementações detalhadas de diferentes tipos de árvores, cada uma com suas características e casos de uso específicos. Todas as implementações incluem versões iterativas e recursivas quando aplicável, com foco em aprendizado e compreensão dos conceitos fundamentais.
 
-Métodos de Remoção
+## 🎯 Estruturas Implementadas
 
-Remoção de nós (em desenvolvimento)
+### 🌳 Árvore Binária de Busca (BST)
+Estrutura básica onde cada nó tem no máximo dois filhos, com elementos menores à esquerda e maiores à direita.
 
-Percursos (Traversals)
+**Características:**
+- Inserção: O(log n) médio, O(n) pior caso
+- Busca: O(log n) médio, O(n) pior caso
+- Pode degenerar em lista encadeada se não balanceada
 
-Pré-ordem (Pre-order)
-Em-ordem (In-order)
-Pós-ordem (Post-order)
+**Operações:**
+- Inserção (iterativa e recursiva)
+- Busca
+- Remoção
+- Percursos (pré-ordem, em-ordem, pós-ordem, por nível)
+- Encontrar mínimo/máximo
+- Altura da árvore
