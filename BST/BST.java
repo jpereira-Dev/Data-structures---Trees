@@ -131,6 +131,31 @@ public class BST {
         return minRecursive(node.left);
     }
 
+    public  int search( int element) {
+
+        if(isEmpty()){
+            throw new RuntimeException("BST vazia");
+        }
+        Node aux = this.root;
+        while(true){
+            if(aux.valor == element){
+                return aux.valor;
+            }
+            else if(element < aux.valor){
+                 if(aux.left == null){
+                    return -1;
+                 }
+                 aux = aux.left;
+            }
+            else {
+                if(aux.right == null){
+                    return -1;
+                }
+                aux = aux.right;
+            }
+        }
+    }
+
 
 }
 
